@@ -1,0 +1,17 @@
+.collabarators {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont3 {
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cont3 > a:nth-child(2) > img {
+    border-radius: 80px;
+}

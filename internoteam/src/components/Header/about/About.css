@@ -1,0 +1,43 @@
+.design {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.interior {
+  width: 317px;
+}
+
+.toCenter > p {
+  font-size: 22px;
+  text-align: center;
+}
+
+.toCenter > h3 {
+  font-family: "DM Serif Display", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.pWithImg {
+  display: flex;
+  justify-content: center;
+}
+
+.centerAbout {
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.centerAbout > a {
+  font-size: 18px;
+}

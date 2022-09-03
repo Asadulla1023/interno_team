@@ -1,0 +1,92 @@
+.Tackling {
+  margin-top: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.tackleLeft {
+  width: 590px;
+  margin-bottom: 60px;
+}
+
+.tackleLeft > h2 {
+  text-align: left;
+  width: 450px;
+  font-weight: 400;
+  font-size: 50px;
+  font-family: "DM Serif Display", sans-serif;
+}
+
+.tackleLeft > p {
+  font-size: 22px;
+  width: 500px;
+  line-height: 33px;
+  text-align: left;
+}
+
+.contact {
+  margin-top: 70px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.call {
+  width: 93px;
+  height: 93px;
+  background: #e4d9ce;
+  border-radius: 80px;
+}
+
+.call > a {
+  position: relative;
+  top: 29px;
+}
+
+.call > a > img {
+  width: 32px;
+}
+
+.numbertocall {
+  position: relative;
+  left: 20px;
+}
+
+.numbertocall > a {
+  font-size: 24px;
+  position: relative;
+  top: 20px;
+  left: -13px;
+}
+
+.numbertocall > p {
+  font-size: 22px;
+}
+
+.tackleLeft > button {
+  margin-top: 30px;
+  width: 263px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  height: 71px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 35px;
+  background: #292f36;
+  transition: 0.2s linear;
+}
+
+button > img {
+  position: relative;
+  left: 30px;
+}
+
+.tackleLeft > button:active {
+  color: #292f36;
+  background: #fff;
+}

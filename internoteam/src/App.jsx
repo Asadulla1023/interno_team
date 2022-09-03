@@ -1,9 +1,18 @@
 import './App.css';
 
+import { Navigation, Header, ThinkAbout, Collab } from "./components"
+
 function App() {
   return (
     <div className="App">
-      Hello
+      <div className="aplication">
+        <div className="container">
+          <Navigation/>
+          <Header/>
+          <ThinkAbout/>
+          <Collab/>
+        </div>
+      </div>
     </div>
   );
 }

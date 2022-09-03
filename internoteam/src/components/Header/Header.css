@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 831px;
+  background: url("./images/bg.png") no-repeat;
+}
+
+.headerTitle {
+  width: 600px;
+}
+
+.title {
+  width: 595px;
+  font-size: 80px;
+  font-family: "DM Serif Display", sans-serif;
+  text-align: left;
+  font-weight: 400;
+}
+
+.headerleft > p {
+  width: 570px;
+  text-align: left;
+  font-size: 22px;
+}
+
+.headerleft > button {
+  width: 207px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  height: 71px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 35px;
+  background: #292F36;
+  transition: 0.2s linear;
+}
+
+button > img {
+    position: relative;
+    left: 30px;
+}
+
+.headerleft > button:active {
+    color: #292F36;
+    background: transparent;
+}

@@ -1,0 +1,61 @@
+.navigationbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 50px;
+}
+
+.logo {
+    width: 177px;
+    font-size: 24px;
+}
+
+.logohref {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logohref > h1 {
+    font-family: "DM Serif Display", sans-serif;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+.navigate > ul {
+    width: 538px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+
+.navigators > a {
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+}
+
+.navigators > a:hover {
+    color: #CDA274;
+}
+
+
+.Home {
+    color: #CDA274;
+}
