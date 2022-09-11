@@ -1,0 +1,158 @@
+.Blogs_h1 {
+  font-family: "DM Serif Display";
+  font-size: 47px;
+  font-weight: 400;
+  line-height: 62px;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+}
+.info {
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 400;
+  font-family: "Jost";
+}
+.cont {
+  width: 1200px;
+}
+.lines {
+  display: flex;
+  gap: 37px;
+  margin-top: 94px;
+}
+.cards > img {
+  width: 580px;
+}
+.cards > h3 {
+  text-align: left;
+  font-family: "DM Serif Display";
+}
+.aboutsection > p {
+  text-align: left;
+}
+
+.circle {
+  width: 70px;
+  background: #f4f0ec;
+  border-radius: 40px;
+  height: 70px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.aboutsection > h3 {
+  font-size: 28px;
+}
+
+.aboutsection > p {
+  font-size: 22px;
+  font-family: 'Jost';
+}
+.circle > a > img {
+  position: relative;
+  top: 27px;
+  left: 1px;
+}
+
+@media only all and (max-width: 62.5rem) {
+  .cards > img {
+    width: 400px;
+  }
+  .lines {
+    margin-left: 70px;
+  }
+  .circle {
+    width: 57px;
+    height: 57px;
+  }
+  .circle > a > img {
+    position: relative;
+    top: 20px;
+    left: 1px;
+  }
+  .aboutsection > h3 {
+    font-size: 20px;
+  }
+  .aboutsection > p {
+    font-size: 18px;
+  }
+}
+
+@media only all and (max-width: 48rem) {
+  .cards > img {
+    width: 280px;
+  }
+  .Blogs_h1 {
+    font-size: 37px;
+    line-height: 42px;
+  }
+  .info {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .cards > h3 {
+    text-align: left;
+    font-size: 70px;
+  }
+  .aboutsection > h3 {
+    font-size: 20px;
+  }
+  .aboutsection > p {
+    font-size: 18px;
+  }
+  .aboutsection > h3 {
+    font-size: 16px;
+  }
+  .aboutsection > p {
+    font-size: 15px;
+  }
+  .circle {
+    width: 47px;
+    height: 47px;
+  }
+  .circle > a > img {
+    top: 15px;
+  }
+}
+
+@media only all and (max-width: 30rem){
+  .Blogs_h1 {
+    font-size: 27px;
+  }
+  .info {
+    font-size: 11px;
+    line-height: 24px;
+  }
+  .cards > img {
+    width: 190px;
+    margin-left: 11px;
+  }
+  .lines{
+    margin-left: 6px;
+    margin-top: 50px;
+  }
+  .aboutsection > h3 {
+    font-size: 11px;
+    margin-left: 11px;
+  }
+  
+  .aboutsection > p {
+    font-size: 11px;
+    margin-left: 11px;
+    
+  }
+  .circle {
+    width: 35px;
+    height: 35px;
+  }
+  .circle > a > img {
+    top: 10px;
+    width: 7px;
+
+  }
+}
