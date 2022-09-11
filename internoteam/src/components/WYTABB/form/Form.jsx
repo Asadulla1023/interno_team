@@ -58,7 +58,7 @@ export const Form = ({ forms, setForms }) => {
             <div className="loc">
               <input type="text" ref={nameRef} placeholder='Enter your name' />
               <input type="text" ref={locRef} placeholder='Where are you from' />
-              <button type='button' className={!btnvalue ? "black" : "ww"} onClick={addFormHandler}>{btnvalue}</button>
+              <button type='button' className={!btnvalue ? "hidden" : "ww"} onClick={addFormHandler}>{btnvalue}</button>
             </div>
             <textarea ref={descRef} cols="30" rows="10" placeholder='They balanced the architectural vision and the project realities beautifully.' />
           </form>
