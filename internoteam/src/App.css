@@ -20,6 +20,13 @@ body {
 }
 
 
+@media all and (max-width: 1240) {
+  a {
+    font-size: 12px;
+  }
+}
+
+
 .aplication {
   display: flex;
   justify-content: center;

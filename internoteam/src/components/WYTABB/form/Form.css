@@ -8,6 +8,10 @@
   width: 1200px;
 }
 
+.hidden {
+  display: none;
+}
+
 input {
   /* display: block; */
   font-family: "Jost";

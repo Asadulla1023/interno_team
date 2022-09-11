@@ -59,3 +59,19 @@ a {
 .Home {
     color: #CDA274;
 }
+
+
+@media only screen and (max-width: 375px) {
+    .cont {
+        width: 375px;
+    }
+    .logohref > img {
+        width: 20px;
+    }
+    .logohref > h1 {
+        font-size: 24px;
+    }
+    .navigate > ul {
+        width: 200px;
+    }
+  }

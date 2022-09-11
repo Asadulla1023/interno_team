@@ -1,16 +1,15 @@
 .cards {
-    margin-right: 0 ;
+  margin-right: 0;
 }
 
 .about {
-    overflow-y: scroll;
+  overflow-y: scroll;
 }
 
-
 .cards {
-    overflow: scroll;
+  overflow: scroll;
 }
 
 .about::-webkit-scrollbar {
-    background: #000;
+  background: #000;
 }
